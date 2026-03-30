@@ -13,3 +13,9 @@ async function getData() {
 }
 
 // examples... might not work irl
+
+async function checkEC2() {
+    const response = await fetch('EC2_ALB_URL/status');
+    const text = await response.text();
+    alert(text); // simple pop-up or append to page
+}
