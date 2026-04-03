@@ -1,0 +1,47 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: WAF for Kasvihuone API Gateway
+
+Resources:
+    KasvihuoneApiWebACL:
+        Type: AWS::WAFv2::WebACL
+        Properties:
+            Name: KasvihuoneApiWebACL
+            Scope: REGIONAL
+            DefaultAction:
+                Allow: {}
+            VisibilityConfig:
+                SampledRequestsEnabled: true
+                CloudWatchMetricsEnabled: true
+                MetricName: KasvihuoneApiWebACL
+            Rules:
+                - Name: RateLimitRule
+                  Priority: 0
+                  Statement:
+                      RateBasedStatement:
+                          Limit: 20
+                          AggregateKeyType: IP
+                  Action:
+                      Block: {}
+                  VisibilityConfig:
+                      SampledRequestsEnabled: true
+                      CloudWatchMetricsEnabled: true
+                      MetricName: RateLimitRule
+
+                - Name: AWSManagedCommonRuleSet
+                  Priority: 1
+                  OverrideAction:
+                      None: {}
+                  Statement:
+                      ManagedRuleGroupStatement:
+                          VendorName: AWS
+                          Name: AWSManagedRulesCommonRuleSet
+                  VisibilityConfig:
+                      SampledRequestsEnabled: true
+                      CloudWatchMetricsEnabled: true
+                      MetricName: AWSManagedCommonRuleSet
+
+    ApiWebACLAssociation:
+        Type: AWS::WAFv2::WebACLAssociation
+        Properties:
+            ResourceArn: arn:aws:apigateway:us-east-1::/restapis/5qtbtl4fqb/stages/prod
+            WebACLArn: !GetAtt KasvihuoneApiWebACL.Arn
