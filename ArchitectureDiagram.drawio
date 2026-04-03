@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36">
   <diagram name="Page-1" id="yKXaiP5ifbctchbDqv_n">
-    <mxGraphModel dx="1097" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="834" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -70,8 +70,8 @@
         <mxCell id="gqFq8VgOgMAwN8o2qIwI-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;" value="frontend provided through S3" vertex="1">
           <mxGeometry height="30" width="75" x="146" y="212" as="geometry" />
         </mxCell>
-        <mxCell id="gqFq8VgOgMAwN8o2qIwI-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;" value="HTTP POST request" vertex="1">
-          <mxGeometry height="30" width="60" x="190" y="260" as="geometry" />
+        <mxCell id="gqFq8VgOgMAwN8o2qIwI-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;" value="&lt;div&gt;Button Press:&lt;/div&gt;HTTP POST request" vertex="1">
+          <mxGeometry height="30" width="80" x="170" y="259" as="geometry" />
         </mxCell>
         <mxCell id="gqFq8VgOgMAwN8o2qIwI-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;" value="invoke" vertex="1">
           <mxGeometry height="30" width="60" x="293" y="333" as="geometry" />
