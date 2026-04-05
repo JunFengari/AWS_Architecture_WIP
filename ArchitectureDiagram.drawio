@@ -212,6 +212,9 @@
         <mxCell id="y1nLzz3Kho7hChiKBTA0-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=8;" value="Infrastructure deployment" vertex="1">
           <mxGeometry height="30" width="90" x="575" y="193" as="geometry" />
         </mxCell>
+        <mxCell id="ZCS5wOBX7bqXvpCjH9qX-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#808080;fontSize=10;" value="Diagram by Jun Fengari" vertex="1">
+          <mxGeometry height="30" width="150" x="530" y="470" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
