@@ -12,7 +12,9 @@ Sivuston väliaikainen testauslinkki: http://kasvihuone-frontend-demo.s3-website
 
 ### Dokumentaatio:
 
-<a href="https://github.com/JunFengari/AWS_Serverless_Architecture/blob/main/Dokumentaatio.pdf" download>Download PDF</a>
+<a href="https://raw.githubusercontent.com/JunFengari/AWS_Serverless_Architecture/main/Dokumentaatio.pdf" download>
+  Download PDF
+</a>
 
 Dokumentaatiossa löytyy konseptin avausta ja perustelua, käytetyt palvelut, arkkitehtuurikuvio, prosessi ja ohjeet,
 sekä reflektio ja lähteet.
