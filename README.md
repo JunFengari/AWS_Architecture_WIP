@@ -19,6 +19,6 @@ sekä reflektio ja lähteet.
 
 ### Esittelyvideo:
 
-Oikea klikkaus ja avaa uudessa välilehdessä: [Youtube](insertlink)
+Oikea klikkaus ja avaa uudessa välilehdessä: [Youtube](https://youtu.be/5Yj0DStf_X0 )
 
 ---
